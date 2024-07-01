@@ -1,7 +1,7 @@
 export const ImpactNums = [
   {
-    Number: '100+',
-    Topic: 'People Helped'
+    Number: '3',
+    Topic: 'Apps in Development'
   },
   {
     Number: '5+',

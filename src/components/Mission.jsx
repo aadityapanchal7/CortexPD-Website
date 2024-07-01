@@ -7,11 +7,11 @@ AOS.init()
 function Mission() {
   return (
     <section id='Mission'>
-  <div className="mx-auto max-w-screen-2xl px-4 pb-16 sm:px-6 lg:px-8 bg-black">
+  <div className="px-4 pb-16 mx-auto bg-black max-w-screen-2xl sm:px-6 lg:px-8">
     <div className="grid grid-cols-1 lg:h-screen lg:grid-cols-2">
       <div className="relative z-10 lg:py-16">
         <div className="relative h-64 lg:h-full " data-aos='fade-right'>
-           <GiAtom className=' absolute inset-0 h-full w-full object-cover text-purple-300/90  '/> 
+           <GiAtom className='absolute inset-0 object-cover w-full h-full text-purple-300/90'/> 
         </div>
       </div>
 
@@ -21,7 +21,7 @@ function Mission() {
         ></span>
 
         <div className="p-8 sm:p-16 lg:p-24" >
-          <h2 className="text-2xl font-bold sm:text-4xl bg-gradient-to-r from-purple-400 via-purple-200 to-white bg-clip-text  text-transparent" data-aos='fade-up'>
+          <h2 className="text-2xl font-bold text-transparent sm:text-4xl bg-gradient-to-r from-purple-400 via-purple-200 to-white bg-clip-text" data-aos='fade-up'>
             Mission
           </h2>
 
@@ -37,7 +37,7 @@ function Mission() {
   
             <a
               href="#Contact"
-              className="mt-8 inline-block rounded border border-purple-300 px-12 py-3 text-sm font-medium text-white hover:bg-purple-300/25 "
+              className="inline-block px-12 py-3 mt-8 text-sm font-medium text-white border border-purple-300 rounded hover:bg-purple-300/25 "
             >
               Get in Touch
             </a>

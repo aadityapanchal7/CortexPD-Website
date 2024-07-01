@@ -7,16 +7,16 @@ AOS.init()
 function Impact() {
   return (
     <section className="">
-  <div className="mx-auto max-w-screen-xl md:px-28 px-14 md:pb-36 py-16 ">
-    <div className="mx-auto max-w-3xl text-center" data-aos='fade-down' data-aos-duration="500">
-      <span className="text-3xl sm:text-4xl bg-gradient-to-r from-purple-400 via-purple-200 to-white bg-clip-text text-transparent font-semibold">Impact</span>
+  <div className="max-w-screen-xl py-16 mx-auto md:px-28 px-14 md:pb-36 ">
+    <div className="max-w-3xl mx-auto text-center" data-aos='fade-down' data-aos-duration="500">
+      <span className="text-3xl font-semibold text-transparent sm:text-4xl bg-gradient-to-r from-purple-400 via-purple-200 to-white bg-clip-text">Impact</span>
     </div>
 
     <div className="mt-8 sm:mt-12" data-aos="flip-down">
       <dl className="grid grid-cols-1 gap-4 sm:grid-cols-3">
         {ImpactNums.map((num, index) => (
-          <div className="flex flex-col rounded-lg bg-black/60 shadow-md shadow-purple-300 px-4 py-8 text-center" key={index}>
-            <dt className="order-last text-lg font-medium text-gray-500">{num.Topic}</dt>
+          <div className="flex flex-col px-4 py-8 text-center rounded-lg shadow-md bg-black/60 shadow-purple-300" key={index}>
+            <dt className="order-last text-lg font-medium text-white">{num.Topic}</dt>
 
             <dd className="text-4xl font-extrabold text-purple-300 md:text-5xl">{num.Number}</dd>
           </div>
