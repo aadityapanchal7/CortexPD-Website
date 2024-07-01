@@ -21,8 +21,6 @@ function Contact() {
       <footer className="bottom-0 text-center pt-5 text-sm flex justify-center w-full text-white">
         <span className="mb-3">
           © {year} NeuroCatalyst All Rights Reserved.
-          <br />
-          <div className=' pt-2 hover:text-purple-200'><a href='https://aadityapanchal.vercel.app' target='__blank'>Made by Aaditya Panchal</a></div>
         </span>
       </footer>
     </div>
