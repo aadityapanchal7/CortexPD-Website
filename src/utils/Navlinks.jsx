@@ -1,19 +1,19 @@
 export const Navlinks = [
   {
     name: 'Home',
-    path: '#'
+    path: '/'
   },
   {
     name: 'Mission',
-    path: '#Mission'
+    path: '/#Mission'
   },
   {
     name: 'Services',
-    path: '#Services'
+    path: '/#Services'
   },
   {
     Bname: 'Join Now!',
-    Bpath: '#Join'
+    Bpath: '/#Join'
   },
   
 ];
